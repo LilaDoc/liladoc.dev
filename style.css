@@ -88,20 +88,32 @@ padding: 20%;
       background-color:lightsalmon;
     } */
   }
-  @media (max-width:1200px) and (min-width:481px){
-    /* body{
-      background-color: powderblue;
-    } */
-  }
-  @media(max-width: 1600px) and (min-width:1376px){
+  @media (max-width:1297){
+    
+
+    } 
+  
+  @media(max-width: 1379px) {
     /* body{
       background-color: limegreen;
     } */
     .presentation .title{
         font-size: 5rem;
+        padding: 20%
+
     }
     .presentation .text{
-        font-size: 1.2rem;
+        font-size: 2rem;
+        grid-column: 2/5;
+        grid-row:1/4;
+        background-color: #E0B055;
+        color: #190702;
+        border-radius: 5%;
+        padding: 20%;
+
+    }
+    .stethoscope{
+      opacity: 0;
 
     }
   }
