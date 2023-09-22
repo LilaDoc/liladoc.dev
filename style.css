@@ -82,3 +82,26 @@ padding: 20%;
     z-index: 5;
 
 } 
+
+@media (max-width: 480px) and (min-width: 319px){
+    /* body{
+      background-color:lightsalmon;
+    } */
+  }
+  @media (max-width:1200px) and (min-width:481px){
+    /* body{
+      background-color: powderblue;
+    } */
+  }
+  @media(max-width: 1600px) and (min-width:1376px){
+    /* body{
+      background-color: limegreen;
+    } */
+    .presentation .title{
+        font-size: 5rem;
+    }
+    .presentation .text{
+        font-size: 1.2rem;
+
+    }
+  }
