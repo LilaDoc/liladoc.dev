@@ -302,6 +302,7 @@ h3{
     }
     .Article{
         width: max-content;
+        width: 50%;
     }
     .ArticleImg{
         display: none;
@@ -343,6 +344,10 @@ h3{
         padding-top: 5%;
         padding-bottom: 5%;
     }
+    .ArticleContent{
+        font-size: 12px;
+    }
+
 
 
   }
