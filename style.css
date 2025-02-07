@@ -208,6 +208,7 @@ h3{
 
 footer{
     padding-top: 5rem;
+    padding-bottom: 5rem;
 }
 @media(max-width: 1379px){
     .ArticleContainer{
